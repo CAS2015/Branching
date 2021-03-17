@@ -8,6 +8,7 @@
 * `git log` - list commits
 * `git log --oneline` - list commits in compact format
 * `git config --list` - list current git configuration
+* `git config --help` - bring up help menu
 
 ### Branching Commands
 * `git branch -M newName` - Rename current branch to `newName`
@@ -15,3 +16,5 @@
 * `git branch` - list local branches, indicating current branch
 * `git checkout newBranch` - Make `newBranch` the current branch
 * `git checkout -b otherBranch` - Create and checkout `otherBranch`
+
+### Remote Commands
