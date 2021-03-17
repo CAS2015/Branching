@@ -15,3 +15,7 @@
 * `git branch` - list local branches, indicating current branch
 * `git checkout newBranch` - Make `newBranch` the current branch
 * `git checkout -b otherBranch` - Create and checkout `otherBranch`
+
+### Remote Commands
+* `git pull origin main` - Pull remote branch `main` into current local branch
+* `git push origin main` - Push local commit to remote repository
