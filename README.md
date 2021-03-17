@@ -8,7 +8,7 @@
 * `git log` - list commits
 * `git log --oneline` - list commits in compact format
 * `git config --list` - list current git configuration
-* `git config --help` - bring up help menu
+* `git config --help` - list options and syntax for git config
 
 ### Branching Commands
 * `git branch -M newName` - Rename current branch to `newName`
@@ -18,3 +18,5 @@
 * `git checkout -b otherBranch` - Create and checkout `otherBranch`
 
 ### Remote Commands
+* `git pull origin main` - Pull remote branch `main` into current local branch
+* `git push origin main` - Push local commit to remote repository
