@@ -7,7 +7,10 @@
 * `git commit -m "message"` - commit staged changes to local repository
 * `git log` - list commits
 * `git log --oneline` - list commits in compact format
+* `git config --list` - list current git configuration
 
 ### Branching Commands
 * `git branch -M newName` - Rename current branch to `newName`
 * `git branch newBranch` - Create branch `newBranch`
+* `git branch` - list local branches, indicating current branch
+* `git checkout newBranch` - Make `newBranch` the current branches
